@@ -1,0 +1,5 @@
+#1)
+Name=input("Enter your name: ")
+Address=input("Enter your Address: ")
+pnumber=int(input("Enter your phone no: "))
+print("Name=",Name,"\nAddress=",Address,"\nPhone Number=",pnumber)

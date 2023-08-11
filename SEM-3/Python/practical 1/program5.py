@@ -1,0 +1,5 @@
+#5)
+a=input("Enter the Number/Alphabet: ")
+print("ASCII code = ",ord(a))
+b=int(input("Enter the ASCII code: "))
+print("Number/Alphabet = ",chr(b))
