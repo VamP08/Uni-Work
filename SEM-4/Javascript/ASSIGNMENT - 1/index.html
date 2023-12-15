@@ -1,23 +1,54 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>Login</title>
-        <script type = "text/javascript" src="script.js"></script>
-    </head>
-    <body>
-        <div class="form-container">
-            <form>
-                <h3>Login now</h3>
-                <input type="email" name="email" placeholder="enter email" class="box" required>
-                <input type="password" name="password" placeholder="enter password" class="box" required>
-                <div>
-                    <a href="#" class="fp">Forget Password? </a>
-                </div>
-                <input type="submit" name="submit" value="Login now" id="btn1" onclick="LoginAlert()">
-                <p>Don't have an Account? <a class="fp" href="signup.html">Signup Now</a></p>
-            </form>
-        </div>
-    </body>
+<head>
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <div class="keys">
+      <table>
+      <tr>
+        <td colspan="3">CASIO</td>
+        <td ><button onclick="clearDisplay()">C</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="appendToDisplay('7')">7</button></td>
+        <td><button onclick="appendToDisplay('8')">8</button></td>
+        <td><button onclick="appendToDisplay('9')">9</button></td>
+        <td><button onclick="appendToDisplay('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="appendToDisplay('4')">4</button></td>
+        <td><button onclick="appendToDisplay('5')">5</button></td>
+        <td><button onclick="appendToDisplay('6')">6</button></td>
+        <td><button onclick="appendToDisplay('-')">-</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="appendToDisplay('1')">1</button></td>
+        <td><button onclick="appendToDisplay('2')">2</button></td>
+        <td><button onclick="appendToDisplay('3')">3</button></td>
+        <td><button onclick="appendToDisplay('*')">*</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="appendToDisplay('.')">.</button></td>
+        <td><button onclick="appendToDisplay('0')">0</button></td>
+        <td><button onclick="appendToDisplay('/')">/</button></td>
+        <td><button onclick="calculate()">=</button></td>
+      </tr>
+      
+      <tr></tr>
+      
+      <tr>
+        <td ><button onclick="promptRadius()" id="rad">Rad</button></td>
+        <td><button onclick="confirmDollar()" id="dol">$</button></td>
+      </tr>
     
+    </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
