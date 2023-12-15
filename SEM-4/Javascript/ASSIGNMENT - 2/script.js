@@ -41,6 +41,7 @@ function calculate() {
     } 
     else {
       result = new Function('return ' + displayValue)();
+      displayValue = parseFloat(result.toFixed(10)).toString();
       document.getElementById("display").value = displayValue;
     }
     document.getElementById("display").value = displayValue;

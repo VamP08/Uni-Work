@@ -47,14 +47,15 @@ button {
 }
 
 button:hover {
-  background-color: #eee;
+  background-color: black;
+  color: white;
 }
+
 
 table {
   width: 100%;
 }
 
-/* Styling for the special buttons */
 #rad,
 #dol {
   background-color: #4CAF50;
