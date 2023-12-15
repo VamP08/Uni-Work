@@ -10,6 +10,21 @@ function clearDisplay() {
   document.getElementById("display").value = displayValue;
 }
 
+function promptRadius() {
+  const radius = prompt("Please enter the radius:");
+  if (radius !== null) {
+    appendToDisplay('radius = ' + radius);
+  }
+}
+
+function confirmDollar() {
+  const dollars = prompt("Please value in dollars:");
+  const confirmed = confirm("Are you sure you want to convert "+dollars+" dollar to INR ?");
+  if (dollars !== null && confirmed) {
+    appendToDisplay('$' + dollars);
+  }
+}
+
 function calculate() {
   try {
     if (displayValue.includes('radius = ')) {
@@ -21,7 +36,8 @@ function calculate() {
       const dollars = parseFloat(displayValue.replace('$', ''));
       const rupees = 83 * dollars;
       displayValue = parseFloat(rupees.toFixed(10)).toString();
-      document.getElementById("display").value =  "₹"+displayValue;
+      displayValue="₹"+displayValue;
+      document.getElementById("display").value =  displayValue;
     } 
     else {
       result = new Function('return ' + displayValue)();
