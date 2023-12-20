@@ -1,15 +1,17 @@
-def is_even(num):
-    return num % 2 == 0
+def compute(lst):
+    if not isinstance(lst, list):
+        raise ValueError("Input must be a list")
 
-l = [11, 1, 20, 50, 5, 40]
+    if not all(isinstance(i, int) for i in lst):
+        raise ValueError("All elements in the list must be integers")
+    
+    square = lambda x: x ** 2
 
-print("Even numbers using for loop and User-defined function:")
-for i in range(len(l)):
-    if is_even(l[i]):
-        print(l[i])
+    cube = lambda x: x ** 3
+    
+    result = [(square(i), cube(i)) for i in lst]
+    
+    return result
 
-even_numbers = list(filter(lambda x: x % 2 == 0, l))
-
-print("\nEven numbers using filter and lambda:")
-for number in even_numbers:
-    print(number)
+lst = [1, 2, 3, 4, 5]
+print(compute(lst))
