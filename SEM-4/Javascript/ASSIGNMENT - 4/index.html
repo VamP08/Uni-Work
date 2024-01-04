@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Javascript Assignment</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Assignment - 4</h1>
+
+  <!-- Program 1:  Using JavaScript switch statement to get the day of the week -->
+  <h3>Program 1:  Using JavaScript switch statement to get the day of the week </h3>
+  <button onclick="DayToday()">Check Today</button>
+  <p id="output1"></p>
+
+  <!-- Program 2: Using the JavaScript switch statement create Simple Calculator -->
+  <h3>Program 2: Using the JavaScript switch statement create Simple Calculator</h3>
+  <input type="number" id="num1">
+  <input type="number" id="num2">
+  <p id="SimpleCalci"> 
+    <h5>Which of the following Operation you want to perform</h5> 
+    <table>
+        <tr> <td> ( 1 ) + </td></tr>
+        <tr> <td> ( 2 ) - </td></tr>
+        <tr> <td> ( 3 ) * </td></tr>
+        <tr> <td> ( 4 ) / </td></tr>
+        <tr> <td> ( 5 ) % </td></tr>
+    </table>
+    <input type="text" id="op">
+  </p>
+  <button onclick="SimpleCalci()"> Output - </button>
+  <span id="output2"></span>
+
+  <!-- Program 3: Write a program to Check whether a character is a vowel or consonant using switch statement -->
+  <h3>Program 3: Write a program to Check whether a character is a vowel or consonant using switch statement</h3>
+  <input type="text" id="Char">
+  <p><button onclick="CheckChar()">Output - </button></p>
+  <span id="output3"></span>
+
+  <!-- Program 4: Write a program to Find the number of days in a month using a switch statement -->
+  <h3>Program 4: Write a program to Find the number of days in a month using a switch statement</h3>
+  <input type="text" id="month">
+  <input type="number" id="year">
+  <button onclick="DaysCount()">Count</button>
+  <p id="output4"></p>
+
+  <!-- Program 5: Write a program to print remark according to the grade obtained using switch statement -->
+  <h3>Program 5: Write a program to print remark according to the grade obtained using switch statement</h3>
+  <form id="gradeForm">
+    <label for="id">ID:</label>
+    <input type="text" id="id" name="id"><br><br>
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select><br><br>
+    
+    <label for="subject1">Subject 1:</label>
+    <input type="number" id="subject1" name="subject1"><br><br>
+    
+    <label for="subject2">Subject 2:</label>
+    <input type="number" id="subject2" name="subject2"><br><br>
+    
+    <label for="subject3">Subject 3:</label>
+    <input type="number" id="subject3" name="subject3"><br><br>
+    
+    <label for="subject4">Subject 4:</label>
+    <input type="number" id="subject4" name="subject4"><br><br>
+    
+    <button type="button" onclick="calculateGrade()">Calculate Grade</button><br><br>
+    
+    <label for="total">Total Marks:</label>
+    <input type="text" id="total" name="total" readonly><br><br>
+    
+    <label for="grade">Grade:</label>
+    <input type="text" id="grade" name="grade" readonly><br><br>
+    
+    <label for="remark">Remark:</label>
+    <input type="text" id="remark" name="remark" readonly><br><br>
+  </form>  
+
+  <script src="script.js"></script>
+
+</body>
+</html>

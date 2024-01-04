@@ -1,0 +1,55 @@
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 30px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: black ;
+  }
+  
+  #SimpleCalci table {
+    border-collapse: collapse;
+  }
+  
+  #SimpleCalci td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #SimpleCalci h5 {
+    margin-bottom: 5px;
+  }
+  
+  #output2,
+  #output3,
+  #output4 {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+  }
+  
