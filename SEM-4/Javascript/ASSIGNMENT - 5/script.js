@@ -35,3 +35,30 @@ function FibonacciSeq(){
         outputDiv.appendChild(lineBreak);
     }
 }
+
+function CountChar(){
+    text = document.getElementById("Charac").value;
+    document.getElementById("output3").textContent = text.length;
+}
+
+function OddNum(){
+    num = parseInt(document.getElementById("OddNum").value);
+    const outputDiv = document.getElementById('output4');
+    for (let i=0; i<=num; i++){
+        if (i%2!=0){
+            textNode = document.createTextNode(i);
+            lineBreak = document.createElement('br');
+            outputDiv.appendChild(textNode);
+            outputDiv.appendChild(lineBreak);
+        }
+    }
+}
+
+function SumN(){
+    num = parseInt(document.getElementById("SumNum").value);
+    outputDiv = 0;
+    for (let i=1; i<=num; i++){
+        outputDiv+=i;
+    }
+    document.getElementById("SumAll").textContent = outputDiv;
+}
