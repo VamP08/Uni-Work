@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Sign Up</title>
+        <script type = "text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div class="form-container">
+            <form action="home.html">
+                <h3>SignUp now</h3>
+                <input type="text" name="name" placeholder="Enter your Name" class="box" required>
+                <input type="text" name="address" placeholder="Enter your Address" class="box" required>
+                <input type="number" name="contact" placeholder="Enter your Contact Number" class="box" required><br>
+                <label>Gender:</label>
+                <ul>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="male" class="box" required>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="female" class="box" required>
+                </ul>
+                <label>Subject:</label>
+                <ul>
+                    <label for="Maths">Maths</label>
+                    <input type="checkbox" name="Subject" value="Maths" class="box" required>
+                    <label for="Science">Science</label>
+                    <input type="checkbox" name="Subject" value="Science" class="box" required>
+                    <label for="English">English</label>
+                    <input type="checkbox" name="Subject" value="English" class="box" required>
+                </ul>
+                <input type="email" name="email" placeholder="Enter your Email" class="box" required>
+                <input type="text" name="username" placeholder="Enter Username" class="box" required>
+                <input type="password" name="password" placeholder="Enter Password" class="box" required>
+                <div>
+                    <a href="#" class="fp">Forget Password? </a>
+                </div>
+                <input type="submit" name="submit" value="Sign up now" id="btn1" onclick="formChanged()">
+
+                <input type="reset" name="submit" value="Reset">
+                
+            </form>
+        </div>
+    </body>
+    

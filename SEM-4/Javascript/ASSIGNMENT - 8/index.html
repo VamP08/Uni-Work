@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Programs</title>
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<div class="container">
+  <h1>JavaScript Programs</h1>
+
+  <!-- Program 1: Person Class -->
+  <div id="program1">
+    <h2>Program 1: Person Class</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    <label for="age">Age:</label>
+    <input type="number" id="age">
+    <label for="country">Country:</label>
+    <input type="text" id="country">
+    <button onclick="createPerson()">Display Details</button>
+    <div class="output" id="personOutput"></div>
+  </div>
+
+  <!-- Program 2: Rectangle Class -->
+  <div id="program2">
+    <h2>Program 2: Rectangle Class</h2>
+    <label for="width">Width:</label>
+    <input type="number" id="width">
+    <label for="height">Height:</label>
+    <input type="number" id="height">
+    <button onclick="calculateRectangle()">Calculate</button>
+    <div class="output" id="rectangleOutput"></div>
+  </div>
+
+  <!-- Program 3: Vehicle and Car Classes -->
+  <div id="program3">
+    <h2>Program 3: Vehicle and Car Classes</h2>
+    <label for="make">Make:</label>
+    <input type="text" id="make">
+    <label for="model">Model:</label>
+    <input type="text" id="model">
+    <label for="year">Year:</label>
+    <input type="number" id="year">
+    <label for="doors">Number of Doors:</label>
+    <input type="number" id="doors">
+    <button onclick="createCar()">Display Details</button>
+    <div class="output" id="carOutput"></div>
+  </div>
+
+  <!-- Program 4: BankAccount Class -->
+  <div id="program4">
+    <h2>Program 4: BankAccount Class</h2>
+    <label for="accountNumber">Account Number:</label>
+    <input type="text" id="accountNumber">
+    <label for="balance">Balance:</label>
+    <input type="number" id="balance">
+    <label for="depositAmount">Deposit Amount:</label>
+    <input type="number" id="depositAmount">
+    <label for="withdrawAmount">Withdraw Amount:</label>
+    <input type="number" id="withdrawAmount">
+    <button onclick="manageBankAccount()">Manage Account</button>
+    <div class="output" id="bankAccountOutput"></div>
+  </div>
+
+  <!-- Program 5: Shape, Circle, and Triangle Classes -->
+  <div id="program5">
+    <h2>Program 5: Shape, Circle, and Triangle Classes</h2>
+    <label for="circleRadius">Circle Radius:</label>
+    <input type="number" id="circleRadius">
+    <button onclick="calculateCircle()">Calculate Circle Area</button>
+    <div class="output" id="circleOutput"></div>
+    <label for="triangleBase">Triangle Base:</label>
+    <input type="number" id="triangleBase">
+    <label for="triangleHeight">Triangle Height:</label>
+    <input type="number" id="triangleHeight">
+    <button onclick="calculateTriangle()">Calculate Triangle Area</button>
+    <div class="output" id="triangleOutput"></div>
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Exercises</title>
+  <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+  <h1>Assignment - 7</h1>
+
+  <!-- Program 1: Button with click event -->
+  <h3> Program 1: Button with click event</h3>
+  <button id="myButton">Click me!</button>
+
+  <!-- Program 2: Change background color on mouse enter -->
+  <h3> Program 2: Change background color on mouse enter</h3>
+  <div id="changeColor" onmouseenter="changeBackgroundColor()"></div>
+
+  <!-- Program 3: Form validation -->
+  <h3>Program 3: Form validation</h3>
+  <form id="myForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <button type="button" onclick="validateForm()">Submit</button>
+  </form>
+
+  <!-- Program 4: Dropdown menu -->
+  <h3> Program 4: Dropdown menu</h3>
+  <div id="dropdown">
+    <button onclick="toggleDropdown()">Toggle Dropdown</button>
+    <ul id="dropdownOptions">
+      <li>Option 1</li>
+      <li>Option 2</li>
+      <li>Option 3</li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

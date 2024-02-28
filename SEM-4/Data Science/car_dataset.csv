@@ -1,0 +1,9 @@
+CarModel,Horsepower,FuelEfficiency,CarModelEncoded,HorsepowerCategory
+Sedan,150,25,2,Low
+SUV,200,18,1,Medium
+Truck,250,15,3,High
+Hatchback,120,30,0,Low
+Sedan,180,22,2,Medium
+SUV,220,17,1,High
+Truck,280,14,3,Very High
+Hatchback,150,28,0,Low
