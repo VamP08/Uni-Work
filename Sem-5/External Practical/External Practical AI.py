@@ -28,7 +28,6 @@ def bfs(jug1_capacity, jug2_capacity, target):
                 queue.append(state)
                 visited.add(state)
     
-    # If no solution found
     return False
 
 jug1_capacity = int(input("Capacity of Jug1: ")) 

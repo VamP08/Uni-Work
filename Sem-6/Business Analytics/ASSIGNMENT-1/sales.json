@@ -1,0 +1,102 @@
+[
+    {
+        "ProductID": "P001",
+        "Quantity Sold": 15,
+        "Revenue": 5543
+    },
+    {
+        "ProductID": "P002",
+        "Quantity Sold": 99,
+        "Revenue": 1289
+    },
+    {
+        "ProductID": "P003",
+        "Quantity Sold": 83,
+        "Revenue": 8515
+    },
+    {
+        "ProductID": "P004",
+        "Quantity Sold": 75,
+        "Revenue": 9723
+    },
+    {
+        "ProductID": "P005",
+        "Quantity Sold": 39,
+        "Revenue": 5539
+    },
+    {
+        "ProductID": "P006",
+        "Quantity Sold": 45,
+        "Revenue": 8536
+    },
+    {
+        "ProductID": "P007",
+        "Quantity Sold": 66,
+        "Revenue": 2745
+    },
+    {
+        "ProductID": "P008",
+        "Quantity Sold": 73,
+        "Revenue": 3520
+    },
+    {
+        "ProductID": "P009",
+        "Quantity Sold": 69,
+        "Revenue": 7012
+    },
+    {
+        "ProductID": "P010",
+        "Quantity Sold": 29,
+        "Revenue": 2363
+    },
+    {
+        "ProductID": "P011",
+        "Quantity Sold": 85,
+        "Revenue": 7654
+    },
+    {
+        "ProductID": "P012",
+        "Quantity Sold": 39,
+        "Revenue": 1548
+    },
+    {
+        "ProductID": "P013",
+        "Quantity Sold": 17,
+        "Revenue": 7151
+    },
+    {
+        "ProductID": "P014",
+        "Quantity Sold": 19,
+        "Revenue": 1455
+    },
+    {
+        "ProductID": "P015",
+        "Quantity Sold": 10,
+        "Revenue": 4537
+    },
+    {
+        "ProductID": "P016",
+        "Quantity Sold": 50,
+        "Revenue": 7834
+    },
+    {
+        "ProductID": "P017",
+        "Quantity Sold": 15,
+        "Revenue": 6985
+    },
+    {
+        "ProductID": "P018",
+        "Quantity Sold": 90,
+        "Revenue": 1017
+    },
+    {
+        "ProductID": "P019",
+        "Quantity Sold": 87,
+        "Revenue": 4416
+    },
+    {
+        "ProductID": "P020",
+        "Quantity Sold": 24,
+        "Revenue": 3692
+    }
+]
